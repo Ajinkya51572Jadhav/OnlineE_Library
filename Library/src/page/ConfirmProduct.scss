@@ -1,0 +1,108 @@
+
+.ConfirmOrder{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+    align-content:center;
+
+    .confirmUser{
+      width:40%;
+      height:50vh;
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction:column;
+      justify-content:center;
+      align-items:start;
+      align-content: center;
+      background-color:#F6F9FF;
+      border-right:1px solid black;
+      padding:10px;
+      margin: 10px;
+      p{
+        padding:10px;
+      }
+    }
+
+    .confirmCartItems{
+       background-color:#F6F9FF;
+       width:40%;
+       height:50vh;
+       display:flex;
+       flex-wrap:wrap;
+       flex-direction:column;
+       justify-content:center;
+       align-items:start;
+       align-content:center;
+       margin: 10px;
+
+       
+       img{
+        width:250px;
+        height:330px;
+        padding: 5px; 
+       }
+
+       p{
+        padding:5px;
+        padding-left:15px;
+        width:300px;
+        height:52px;
+        text-align:start;
+        align-content:center;
+       
+        span{
+          padding:10px;
+          background-color: white;
+          color: black;
+          margin: 5px; 
+          cursor: pointer;
+         } 
+  
+         span:hover{
+           background-color:#DF2465;
+         } 
+      
+      }
+      
+
+    }
+
+}
+
+@media screen and (max-width:767px){
+  .ConfirmOrder{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;       
+        width: 100%;
+        height:150vh;
+
+      .confirmUser{
+         width: 100%;
+         padding: 0;  
+         border: none;
+        } 
+
+      .confirmCartItems{
+               width: 100%;
+               height:60vh;
+               display:block;
+               text-align:center;
+               flex-wrap: wrap;
+                p{
+                font-size:13px;
+                height:30px;
+                padding:0;
+                margin-left:15%;
+               }
+               img{
+                 width:50%;
+                 height:35vh; // 55%
+                }
+              }
+  }
+}

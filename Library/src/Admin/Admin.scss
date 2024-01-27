@@ -1,0 +1,55 @@
+
+
+.Admin{
+position: relative;
+.dashbord{
+ position: absolute;
+    top:0;
+    right:0;
+    width:80%;
+    height:100vh;
+    background-color:#F6F9FF;
+     display: flex;
+     justify-content:space-evenly;
+     text-align: center;
+    .Bar{
+      position: absolute;
+      top:60%;
+    }
+
+    a{
+     text-decoration: none;
+     border-radius:50%;
+     background-color: red;
+     width:150px;
+     height:150px;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+  .Admin{
+      .dashbord{
+          .Bar{
+            width:90px;
+            height:10vh;
+           .Name{
+            font-size:10px;
+           }
+          }
+      }
+  }  
+}
+

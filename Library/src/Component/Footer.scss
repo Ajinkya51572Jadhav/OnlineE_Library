@@ -1,0 +1,62 @@
+
+
+footer{
+    margin-top: 100px;
+    width:100%;
+    height:30vh;
+    word-spacing:5px;
+    letter-spacing:1px;
+    background-color: #F6F9FF;
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+   // background-color:rgb(250, 249, 249); 
+      
+    div{
+        padding:10px 10px 20px 10px;
+        
+        a{
+         padding:7px;
+         margin-left: 10px;
+         text-decoration: none;
+         font-size:31px;
+         color:black;
+         }
+    }
+
+    .LinkedinSvgIcon{
+      color:rgb(81, 123, 240);  
+     } 
+     
+     .portFoSvgIcon{
+        color:pink;
+     }
+    
+     .mailSvgIcon{
+      color:red;
+   }
+     .instagramSvgIcon {
+       color:white;
+       background-image:linear-gradient(to left,red,yellow);
+     }
+
+  }
+
+  .text-end{
+    padding:50px 60px 30px 60px;
+    text-align:center;
+    // span{
+    //     letter-spacing:8px;
+    // }      
+ }
+}
+
+@media screen and (max-width:767px){
+  footer{
+   height:10%;
+   font-size:70%;
+  }
+}
